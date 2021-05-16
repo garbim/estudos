@@ -11,5 +11,5 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
 Route::get('/route', 'RouteController@index')->name('route.index');
+Route::get('/', 'HomeController@index')->name('home.index');
