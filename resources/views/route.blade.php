@@ -7,10 +7,11 @@
 <div>
     <div class="row">
         @foreach($dias as $dia)
-        <span class="col-md-1 border rounded-circle ml-1 px-2 primary">{{$dia}}</span>
+        <div class="col-md-1 border rounded-circle px-2 primary">{{$dia}}</div>
         @endforeach
     </div>
 </div>
+
 
 
 @endsection
